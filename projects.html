@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tanmay's Devloper Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="left">Tanmay's Portfolio</div>
+            <div id="right">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main id="main-project">
+        <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+        <section class="container-fluid hidden">
+            <div class="row">
+                <div class="col-lg" id="leftSection-project">
+                    <h3>TRAVEL MANAGEMENT SYSTEM</h3>
+                    <div>
+                        <video width="700" controls>
+                            <source src="img/STEPS/travel.mp4" type="video/mp4">        
+                          </video>
+                    </div>
+                      <p>I made this application as a college project. This application has java as its front end and MySql has been used for the backend purpose to store data like accounts, credentials etc.</p>
+                      <p>Swing API is been used to make a window based output. Swing classes like Jbutton, JProgessBar, ActionListener etc. We have used MySQL for backend as our database, where we store 
+                        data related to accounts, packages, customer details etc. Our MySQL database design for the Travel Management System is a cornerstone of this project. During Loging in it checks up with database to see the combination of username or password is correct, if not then it give invalid login credentials dialogue box, it also retrieves data regarding customer details and booked packages details.</p>
+                </div>
+                <div class="col-lg" id="rightSection-project">                 
+                    <h3>VIRTUAL MOUSE</h3>
+                    <p>I made this application as a college project. This application is made solely on python. This application uses open source APIs from google like mediapipe, OpenCV, numpy etc.</p>
+                    <img src="img/STEPS/1.png" width="700px">
+                    <p>In this HandTracking module's working is demonstrated, it plots 20 points across the hand and those are recorded for further use</p>
+                    <img src="img/STEPS/2.png" width="700px">
+                    <p>In this the Module only considering primary hand is shown, lastest hand in the feed is considered as primary hand.</p>
+                    <img src="img/STEPS/3.png" width="700px">
+                    <p>In this the pointer mode is turned on, the cue for the same is the index finger. The mouse will move as we move the index finger</p>
+                    <img src="img/STEPS/4.png" width="700px">
+                    <p>In this the click mode is turned on, as the middle finger and index fingers are visbile in the feed.</p>
+                    <img src="img/STEPS/5.png" width="700px">
+                    <p>Click mode constantly calculates the distance between the two fingers if it is less than 50px it triggers click.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="contact">
+        <div class="containter-fluid">
+            <div class="row">
+                <div class="col-lg">
+                    <h3>Tanmay's Portfolio</h3>
+                </div>
+                <div class="col-lg">
+                </div>
+                <div class="col-lg">
+                </div>
+                <div class="col-lg contact">
+                    <img src="img/gmail.png" width= 35px> tanmayflicks@gmail.com
+                    <br>
+                    <img src="img/discord.png" width= 35px> syskey8
+                </div>
+            </div>
+        </div>
+    </footer>     
+</body>
+</html>
